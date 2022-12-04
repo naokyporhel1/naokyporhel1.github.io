@@ -1,0 +1,141 @@
+/*Estilos para el body
+background-color = color de fondo
+    font-family = tipo de fuente
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/*navegador*/
+nav{
+    background-color: rgb(224, 16, 16) !important;
+    width: 100%;
+}
+
+nav li a{
+    color: white !important;
+}
+
+nav li a:hover{
+    color: cyan !important;
+}
+
+
+/*Estilos para controlar el tamaño de las imágenes del carrusel
+width - ancho
+height - alto */
+.carousel-item img{
+    width: 100%;
+    height: 650px;
+}
+
+/*Estilos para título
+text-alig = alínea el texto
+color = cambia el color de letra
+font-weight = ancho de letra
+padding-top = padding de alto*/
+h1{
+    text-align: center;
+    color: rgb(132, 38, 122);
+    font-weight: bolder;
+    padding-top: 30px;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+p{
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family: 'Comic Neue', cursive;
+    color: black;
+}
+
+
+/*Alineación texto e imagen biografia*/
+#biografia div{
+    margin: 0 auto;
+    width: 90%;
+    padding: 40px;
+}
+
+/*Tamaño imagen biografia*/
+#discografia div img{
+ width: 300px;
+ margin: 0 auto;
+}
+
+/*Alineación texto e imagen discografia*/
+#discografia div{
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+}
+
+/*color de fondo y de letra*/
+#discografia{
+    background-color: rgb(224, 16, 16);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    background-image: url("/assets/r.jpg");
+    background-repeat: no-repeat;
+}
+
+
+/*Alineación de cards integrantes*/
+#integrantes {
+   padding: 5%;
+   margin: 0 auto;
+   text-align: center;
+   border-radius: 25px;
+}
+
+#integrantes div {
+    display: inline-block;
+    padding: 1px;
+    
+
+ }
+
+#integrantes h2 {
+    padding: 20px;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bolder;
+ }
+
+
+ /*Alineación de video*/
+ #video{
+    text-align: center;
+    padding: 50px;
+    background-image: url("/assets/r.jpg");
+    background-color: rgb(224, 16, 16);
+ }
+
+ /*Diseño footer*/
+ footer{
+    background-color: rgb(222, 109, 109);
+    color: white;
+    text-align: center;
+ }
+
+ footer p{
+    margin: 0;
+    padding: 20px;
+ }
+
+ /*estilos de enlace en footer*/
+ footer a{
+    color: white;
+ }
+
+ footer a:hover{
+    text-decoration: none;
+    color: cyan;
+ }
